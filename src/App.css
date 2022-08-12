@@ -22,6 +22,8 @@
 .travel-card{
   display:flex;
   padding:1rem;
+  margin: 1rem auto;
+  box-shadow:4px 4px 6px rgba(0,0,0,0.1);
 }
 
 .travel-card img{
@@ -33,4 +35,30 @@
 .card-data {
   display:flex;
   flex-flow:column;
+  padding:3rem;
+}
+
+.card-first-line {
+  display:flex;
+  align-items:center;
+  font-weight:800;
+  margin:0;
+  padding:0;
+  font-size:0.8rem;
+  line-height:0.3rem;
+}
+
+.card-first-line a {
+  margin-left:0.4rem;
+  color:#888;
+  text-decoration:underline;
+  font-size:0.7rem;
+}
+
+.card-title, .card-dates{
+  margin:0;
+  padding:0;
+}
+.card-description{
+  font-size:0.9rem;
 }

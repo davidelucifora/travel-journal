@@ -14,7 +14,7 @@ function Card({card}) {
             </div>
         
         <h3 className="card-title">{card.title}</h3>
-        <h4 className ="card-dates">{card.dates}</h4>
+        <h6 className ="card-dates">{card.dates}</h6>
         <p className="card-description">{card.description}</p>
     </div>
     </div>
